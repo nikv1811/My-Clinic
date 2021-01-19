@@ -16,7 +16,7 @@ import com.nikhil.clinic.model.Doctor;
 import com.nikhil.clinic.service.DoctorServiceImpl;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "*")
 @RequestMapping("/api")
 public class DoctorController {
 

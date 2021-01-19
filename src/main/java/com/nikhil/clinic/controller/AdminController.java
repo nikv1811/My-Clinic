@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.nikhil.clinic.model.Admin;
 import com.nikhil.clinic.service.AdminLoginService;
 
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "*")
 @RestController
 @RequestMapping("/api")
 public class AdminController {

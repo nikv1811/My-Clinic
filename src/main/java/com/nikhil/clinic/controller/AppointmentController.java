@@ -16,7 +16,7 @@ import com.nikhil.clinic.model.Appointment;
 import com.nikhil.clinic.service.AppointmentServiceImpl;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "*")
 @RequestMapping("/api")
 public class AppointmentController {
 
